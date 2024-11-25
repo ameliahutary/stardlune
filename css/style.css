@@ -322,11 +322,41 @@ button.btn {
 
 .home-slider .main-slider-item {
     padding: 0 7.5px;
+    position: relative; 
+    overflow: hidden;
+}
+
+.home-slider .main-slider-item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .home-slider .slick-dots {
     bottom: 15px;
 }
+
+
+.banner-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.banner-text .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.banner-text .description {
+    font-size: 14px;
+    margin: 0;
+}
+
 
 
 
