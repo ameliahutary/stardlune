@@ -259,6 +259,7 @@ button.btn {
     opacity: 0;
     transition: .5s;
     background: #ffffff;
+    
 }
 
 .slick-prev {
@@ -318,18 +319,24 @@ button.btn {
 .home-slider {
     position: relative;
     width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .home-slider .main-slider-item {
     padding: 0 7.5px;
     position: relative; 
     overflow: hidden;
+    height: 400px;
+    
 }
 
 .home-slider .main-slider-item img {
     display: block;
     width: 100%;
     height: auto;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
 .home-slider .slick-dots {
