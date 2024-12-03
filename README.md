@@ -1,9 +1,9 @@
 # Stardlune - E-Commerce Static Website  
-[![issues](https://img.shields.io/github/issues/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/issues)  
-[![language](https://img.shields.io/github/languages/count/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/search?l=html)  
-[![top-language](https://img.shields.io/github/languages/top/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/search?l=html)  
-[![commit](https://img.shields.io/github/commit-activity/m/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/commits/main)  
-[![last-commit](https://img.shields.io/github/last-commit/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/commits/main)  
+[![issues](https://img.shields.io/github/issues/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/issues)
+[![language](https://img.shields.io/github/languages/count/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/search?l=html)
+[![top-language](https://img.shields.io/github/languages/top/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/search?l=html)
+[![commit](https://img.shields.io/github/commit-activity/m/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/commits/main)
+[![last-commit](https://img.shields.io/github/last-commit/ameliahutary/stardlune)](https://github.com/ameliahutary/stardlune/commits/main)
 
 ## Introduction  
 This is an individual project for the **E-Commerce** course.  
