@@ -357,7 +357,7 @@ button.btn {
 }
 
 .banner-text .description {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 0 20px;
 }
 
@@ -382,7 +382,7 @@ button.btn {
     }
 
     .banner-text .description {
-        font-size: 14px;
+        font-size: 12px;
         margin: 0 0 20px;
     }
 
@@ -723,7 +723,7 @@ button.btn {
 }
 
 .product-item .product-content .price {
-    font-size: 30px;
+    font-size: 20px;
     color: #3F69AA;
     font-weight: 700; 
 }
@@ -900,7 +900,7 @@ button.btn {
 
 .product-detail .product-content .price {
     color: #3F69AA;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 15px;
 }
