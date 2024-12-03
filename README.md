@@ -23,6 +23,7 @@ The static website is designed to showcase a functional e-commerce platform name
 ## Technologies Used  
 [![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=orange)](https://github.com/ameliahutary?tab=repositories&language=html)
 [![CSS](https://img.shields.io/badge/-CSS-black?style=flat-square&logo=css3&logoColor=blue)](https://github.com/ameliahutary?tab=repositories&language=css)
+[![SCSS](https://img.shields.io/badge/-SCSS-black?style=flat-square&logo=sass&logoColor=cc6699)](https://github.com/ameliahutary?tab=repositories&language=scss)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://github.com/ameliahutary?tab=repositories&language=javascript)
 [![JQuery](https://img.shields.io/badge/-JQuery-black?style=flat-square&logo=jquery&logoColor=%230769AD)](https://github.com/ameliahutary?tab=repositories)
 
