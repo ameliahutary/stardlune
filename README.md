@@ -31,7 +31,7 @@ The static website is designed to showcase a functional e-commerce platform name
 ## Screenshots  
 
 ### Landing Page
-![Landing Page Screenshot](screenshots/landing-page.png)  
+![Landing Page Screenshot](screenshots/landing-page.png  
 
 ---
 
