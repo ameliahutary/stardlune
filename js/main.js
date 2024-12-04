@@ -194,5 +194,14 @@
             $('#' + checkbox_id + '-show').slideDown();
         }
     });
+
+    $('.testimonial-slider-items').slick({
+        infinite: true,   // untuk loop
+        slidesToShow: 1,  // hanya tampilkan satu testimoni setiap kali
+        slidesToScroll: 1,
+        autoplay: true,   // mengaktifkan otomatis geser
+        autoplaySpeed: 4000,  // waktu antara setiap geser (dalam milidetik)
+        arrows: false,    // matikan tombol next/prev
+    });
 })(jQuery);
 
