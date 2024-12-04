@@ -659,21 +659,6 @@ button.btn {
 }
 
 
-
-/**********************************/
-/******** Featured Product ********/
-/**********************************/
-.featured-product {
-    position: relative;
-    padding: 45px 0 60px 0;
-}
-
-.recent-product {
-    position: relative;
-    padding: 60px 0;
-}
-
-
 /**********************************/
 /******** Product View CSS ********/
 /**********************************/
