@@ -457,6 +457,48 @@ button.btn {
     margin-top: 30px;
 }
 
+@media (max-width: 768px) {
+    .section-header {
+        max-width: 90%; /* Mengurangi lebar maksimal untuk layar kecil */
+        margin: 20px auto;
+    }
+
+    .section-header h2,
+    .section-header h3 {
+        font-size: 30px; /* Mengurangi ukuran font untuk judul */
+        padding-bottom: 10px;
+    }
+
+    .section-header h2::after,
+    .section-header h3::after {
+        width: 40px; /* Mengecilkan elemen dekoratif */
+        height: 4px;
+        left: calc(50% - 20px);
+    }
+
+    .section-header p {
+        font-size: 14px; /* Mengurangi ukuran font untuk teks paragraf */
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-header h2,
+    .section-header h3 {
+        font-size: 27px; /* Lebih kecil lagi untuk layar smartphone */
+    }
+
+    .section-header h2::after,
+    .section-header h3::after {
+        width: 30px; /* Dekorasi lebih kecil */
+        height: 3px;
+        left: calc(50% - 15px);
+    }
+
+    .section-header p {
+        font-size: 12px; /* Ukuran font minimal untuk kenyamanan baca */
+    }
+}
 
 
 /**********************************/
@@ -913,7 +955,50 @@ button.btn {
     background: #3F69AA;
 }
 
+@media (max-width: 768px) {
+    .sidebar-widget .title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
 
+    .sidebar-widget.brands ul li a,
+    .sidebar-widget.category ul li a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sidebar-widget.image img {
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    .sidebar-widget.tag a {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar-widget .title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .sidebar-widget.brands ul li a,
+    .sidebar-widget.category ul li a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .sidebar-widget.image img {
+        max-height: 150px;
+    }
+
+    .sidebar-widget.tag a {
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+}
 /**********************************/
 /******* Testimonial CSS *******/
 /**********************************/
@@ -998,17 +1083,79 @@ button.btn {
     color: #888;
 }
 
-/* Responsiveness */
-@media screen and (max-width: 768px) {
-    .testimonial-slider-items .col-lg-4 {
-        max-width: 100%;
-        padding: 10px;
+@media (max-width: 768px) {
+    .testimonial-slider {
+        padding: 20px 10px;
+    }
+
+    .testimonial-slider .section-header h3 {
+        font-size: 30px; /* Mengurangi ukuran judul */
+    }
+
+    .testimonial-slider .section-header p {
+        font-size: 14px; /* Mengurangi ukuran paragraf */
+    }
+
+    .testimonial-slider .section-header h3::after {
+        width: 40px; /* Dekorasi lebih kecil */
+        height: 4px;
+    }
+
+    .testimonial-item {
+        padding: 20px; /* Mengurangi padding agar lebih proporsional */
+        margin: 10px;
+    }
+
+    .testimonial-content {
+        font-size: 14px; /* Ukuran teks konten lebih kecil */
+    }
+
+    .testimonial-author img {
+        width: 50px; /* Gambar lebih kecil */
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .author-info h5 {
+        font-size: 16px; /* Ukuran nama lebih kecil */
+    }
+
+    .author-info p {
+        font-size: 12px; /* Ukuran deskripsi lebih kecil */
     }
 }
 
-.slick-slide {
-    padding: 0 15px;
+@media (max-width: 480px) {
+    .testimonial-slider .section-header h3 {
+        font-size: 27px; /* Ukuran judul lebih kecil untuk layar smartphone */
+    }
+
+    .testimonial-slider .section-header p {
+        font-size: 12px; /* Paragraf lebih kecil */
+    }
+
+    .testimonial-item {
+        padding: 15px; /* Padding lebih kecil untuk smartphone */
+    }
+
+    .testimonial-content {
+        font-size: 12px; /* Konten lebih kecil */
+    }
+
+    .testimonial-author img {
+        width: 40px; /* Gambar lebih kecil */
+        height: 40px;
+    }
+
+    .author-info h5 {
+        font-size: 14px; /* Nama lebih kecil */
+    }
+
+    .author-info p {
+        font-size: 10px; /* Deskripsi lebih kecil */
+    }
 }
+
 
 
 
@@ -1035,7 +1182,7 @@ button.btn {
 /**********************************/
 .footer {
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 60px 0 0;
     background: #3F69AA;
 }
 
@@ -1043,21 +1190,22 @@ button.btn {
     .footer .container-fluid {
         max-width: 95%;
     }
+
+    .footer .payment {
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }
 
 .footer .footer-widget {
-    position: relative;
     width: 100%;
     margin-bottom: 40px;
 }
 
-.footer .footer-widget h1 {
-    color: #ffffff;
-    margin-bottom: 10px; 
-}
-
+.footer .footer-widget h1,
 .footer .footer-widget .title {
     color: #ffffff;
+    margin-bottom: 10px;
     white-space: nowrap;
 }
 
@@ -1072,18 +1220,18 @@ button.btn {
 }
 
 .footer .footer-widget ul li {
-    margin-bottom: 12px; 
+    margin-bottom: 12px;
 }
 
 .footer .footer-widget ul li:last-child {
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .footer .footer-widget ul li a {
     color: #ffffff;
-    white-space: nowrap;
     display: block;
     line-height: 23px;
+    white-space: nowrap;
 }
 
 .footer .footer-widget ul li a::before {
@@ -1093,7 +1241,7 @@ button.btn {
 }
 
 .footer .footer-widget ul li a:hover {
-    padding-left: 10px; 
+    padding-left: 10px;
 }
 
 .footer .contact-info p {
@@ -1108,7 +1256,6 @@ button.btn {
 }
 
 .footer .social {
-    position: relative;
     width: 100%;
 }
 
@@ -1128,13 +1275,29 @@ button.btn {
 }
 
 .footer .payment {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 0;
     border-top: 1px solid #4977bf;
 }
 
+.footer .payment-method {
+    text-align: left;
+    overflow: hidden;
+}
+
+.footer .payment-method p {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.footer .payment-method img {
+    height: 25px;
+}
+
 .footer .map-container {
-    position: relative;
     width: 100%;
     height: 150px;
     overflow: hidden;
@@ -1150,73 +1313,33 @@ button.btn {
 }
 
 @media (max-width: 768px) {
-    /* Footer Widget adjustment for smaller screens */
     .footer .footer-widget {
         margin-bottom: 20px;
     }
 
     .footer .footer-widget h1,
     .footer .footer-widget .title {
-        font-size: 18px;  /* Adjusting the font size */
+        font-size: 18px;
     }
 
-    .footer .footer-widget p {
-        font-size: 14px;  /* Adjusting the paragraph size */
-    }
-
+    .footer .footer-widget p,
     .footer .contact-info p {
-        font-size: 14px; /* Reducing font size for small screens */
+        font-size: 14px;
     }
 
-    /* Map container adjustments for small screens */
     .footer .map-container {
-        height: 120px;  /* Reduce height of the map for smaller devices */
+        height: 120px;
     }
 
     .footer .payment-method {
-        margin-bottom: 20px;  /* Adjust spacing for smaller screens */
-        text-align: center;  /* Center the payment method text */
-    }
-
-    .footer .payment-method p {
-        font-size: 14px; /* Reduce font size for smaller devices */
+        margin-bottom: 20px;
     }
 
     .footer .payment-method img {
-        height: 20px; /* Adjust image size */
+        height: 20px;
     }
 }
 
-@media (min-width: 992px) {
-    .footer .payment {
-        max-width: 80%;
-        margin: 0 auto;
-    }
-}
-
-.footer .payment-method {
-    text-align: left;
-    overflow: hidden;
-}
-
-@media (max-width: 768.98px) {
-    .footer .payment-method {
-        margin-bottom: 30px;
-    } 
-}
-
-.footer .payment-method p {
-    display: inline-block;
-    margin: 0 10px 0 0;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 22px;
-}
-
-.footer .payment-method img {
-    height: 25px;
-}
 
 
 
